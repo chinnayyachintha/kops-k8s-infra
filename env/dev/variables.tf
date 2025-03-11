@@ -74,11 +74,6 @@ variable "subnet_id" {
   type        = string
 }
 
-variable "user_data" {
-  description = "Path to the user data script file"
-  type        = string
-}
-
 variable "public_key_location" {
   description = "Path to the public key file"
   type        = string
